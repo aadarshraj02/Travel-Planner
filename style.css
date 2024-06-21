@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto+Mono";
+  background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header,
+footer {
+  flex-shrink: 0;
+}
+main {
+  flex: 1;
+  padding: 2rem 0;
+}
+#search-section {
+  margin-bottom: 2rem;
+}
+#results-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+#place-details {
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+#map-container {
+  width: 100%;
+  height: 400px;
+  margin-bottom: 2rem;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+#map {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+#fallback-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+  display: none;
+}
+#photos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+.photo {
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+.photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
