@@ -1,5 +1,5 @@
 #Travel Planner 📝  
- You will get details of the plae alog with mp latitude and longitude and pictures relted tothat place.
+ You will get details of the plae alog with mp latitude and longitude and pictures related to that place.
 
 ## Get Started 🚀
 
