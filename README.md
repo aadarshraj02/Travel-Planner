@@ -1,9 +1,9 @@
 #Travel Planner 📝  
- You will get details of the plae alog with mp latitude and longitude and pictures related to that place.
+ You will get details of the place along with mp latitude and longitude and pictures related to that place.
 
 ## Get Started 🚀
 
-Enter the name of place/city and click on search button you will get latitude longitude pincode mp and images. If no location found it will give a fallback image showing no location found.
+Enter the name of place/city and click on search button you will get latitude longitude pin-code mp and images. If no location found it will give a fallback image showing no location found.
 
 ## Used
 
